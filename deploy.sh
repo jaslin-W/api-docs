@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -o errexit #abort if any command fails
 me=$(basename "$0")
-
+test ssh gpg
 help_message="\
 Usage: $me [-c FILE] [<options>]
 Deploy generated files to a git branch.
